@@ -1,0 +1,314 @@
+html {
+    border: none;
+}
+
+/*------------- Styling the header -----------*/
+
+.header {
+    background-color: #4F4F4F;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    color: #fafafa;
+    margin:0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+
+.button {
+    color: white;
+}
+
+
+.navbar-dark .navbar-brand {
+    color: pink;
+
+}
+
+.dropdown-menu {
+    background-color: #4F4F4F;
+}
+
+.dropdown-item {
+    color: #b9bec3;
+}
+
+
+a {
+    color:#fafafa;
+}
+
+.section1 {
+    background-size: unset;
+    text-align: center;
+    background-image: url(Assets/pictures/bamboo-boat-clouds-cloudscape-2132098.jpg);
+    background-repeat: no-repeat;
+    min-height: 350px;
+    color: black;
+    padding: 20px 10px;
+    background-position-y: bottom;
+    background-position-x: center;
+    background-color: darkgray;
+}
+
+.intro {
+    background-color: pink;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+h1, h2, h3{
+    color: PINK;
+    text-align: center;
+    padding-bottom:20px;
+    padding-top: 20px;
+}
+
+h5 {
+    color: pink;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-decoration: underline
+}
+
+.logo {
+    background: url("Assets/pictures/adults-buildings-cars-1701001.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 260px;
+    max-height: 440px;
+    max-width: 95%
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+li {
+    list-style: none;
+    text-align: center
+}
+
+.tours {
+    color:darkgray;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.about_us {
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.contacts {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.man {
+    background-image: url(Assets/pictures/hanoi-man-market-1004123.jpg);
+
+}
+
+.towel {
+ text-align:center;  
+ padding-left:15px;
+ padding-right:15px;
+ background-color: yellow;
+}
+
+.internary16 {
+    text-align: left;
+    margin: 10px 20px;
+    align-content: center;
+    text-align: justify;
+}
+
+.right {
+    height:200px;
+    word-break: break-word;
+    float:right;
+    margin: 5px;
+}
+
+.left {
+    height:200px;
+    word-break: break-word;
+    float:left;
+    margin: 5px;
+}
+
+.woman {
+    float: right;
+}
+
+
+article {
+    margin: 5px;
+}
+
+img.iten_right {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+img.iten_left {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+img.map_right {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 130px;
+    margin-left: 10px;
+}
+
+
+
+
+banner2 {
+    display: inline-block;
+}
+
+.bggray {
+    background-color: #f4f3f3;
+    padding-bottom: 10px;
+}
+
+.section2 {
+    background-size: unset;
+    text-align: center;
+    background-image: url(Assets/pictures/chaly-pavement-road-2044867.jpg);
+    background-repeat: no-repeat;
+    min-height: 350px;
+    color: black;
+    padding: 20px 10px;
+    background-position-y: bottom;
+    background-position-x: center;
+    background-color: darkgray;
+}
+
+.dest {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.desth {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+}
+
+.ready {
+    background-clip: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid-container-new {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 25% 25% 25%; /*Make the grid smaller than the container*/
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 80% 20%; /*Make the grid smaller than the container*/
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top:5px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.people {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top:5px;
+}
+
+.people__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header5 {
+    color: pink;
+    text-decoration: underline;
+}
+
+.review1{
+    display: inline-block;
+}
+ 
+/* media queries */
+
+@media (max-width:767px) {
+    body {
+    font-size:small;
+    }
+    .review{
+    text-align:center;
+    padding:20px 10px;
+    margin-bottom:40px;
+    display:inline;
+    font-size:small;
+    }
+    
+@media (min-width: 768px) and (max-width: 991px) {
+    .review {
+    text-align:center;
+    padding:20px 10px;
+    margin-bottom:40px;
+    display:flex;
+    font-size:small;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1800px) {
+    .review{
+    text-align:center;
+    padding:20px 10px;
+    margin-bottom:40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display:inline-flex;
+    }
+}
