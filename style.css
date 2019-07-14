@@ -41,13 +41,13 @@ a {
 }
 
 .section1 {
-    background-size: unset;
+    background-size: cover;
     text-align: center;
     background-image: url(Assets/pictures/bamboo-boat-clouds-cloudscape-2132098.jpg);
     background-repeat: no-repeat;
-    min-height: 350px;
+    min-height: 380px;
     color: black;
-    padding: 20px 10px;
+    padding: 20px 0px;
     background-position-y: bottom;
     background-position-x: center;
     background-color: darkgray;
@@ -91,6 +91,12 @@ li {
     text-align: center
 }
 
+img.quote {
+    border-style: solid;
+    border-color: gray;
+    float: right;
+}
+
 .tours {
     color:darkgray;
     text-align:center;
@@ -108,16 +114,43 @@ li {
     margin-right: 10px;
 }
 
+.compact {
+    margin: 0;
+}
 .man {
     background-image: url(Assets/pictures/hanoi-man-market-1004123.jpg);
 
 }
+
+.btn-success1 {
+    color: #fff;
+    background-color: pink;
+    border-color: gray;
+    border-width: thick;
+}
+
 
 .towel {
  text-align:center;  
  padding-left:15px;
  padding-right:15px;
  background-color: yellow;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.box {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .internary16 {
@@ -243,9 +276,8 @@ banner2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
     padding-top:5px;
+    margin: 30px 5px;
 }
 
 .gallery__img {
@@ -278,6 +310,18 @@ banner2 {
     display: inline-block;
 }
  
+footer.site {
+    background-color: #212529;
+    color: pink;
+    background-size: cover;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.bottom {
+    margin-bottom: 0;
+}
 /* media queries */
 
 @media (max-width:767px) {
@@ -289,7 +333,7 @@ banner2 {
     padding:20px 10px;
     margin-bottom:40px;
     display:inline;
-    font-size:small;
+    font-size:smaller;
     }
     
 @media (min-width: 768px) and (max-width: 991px) {
