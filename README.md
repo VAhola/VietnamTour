@@ -6,9 +6,10 @@
  ----------------------------------------------------------------- 
 
 
-Hi there! Welcome to AWS Cloud9!
 
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
+Cover photo front page: Photo by Quang Nguyen Vinh from Pexels 
+Cover phote useful infomration page: Photo by Tracy Nguyen from Pexels
 
-Happy coding!
+Info:
+Lets travel: Photo by rawpixel.com from Pexels
+Syringe: Image by Peggy und Marco Lachmann-Anke from Pixabay
