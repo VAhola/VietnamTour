@@ -23,7 +23,7 @@ html {
 
 
 .navbar-dark .navbar-brand {
-    color: pink;
+    color: 	#ffb6c1;
 
 }
 
@@ -48,34 +48,45 @@ a {
     background-repeat: no-repeat;
     min-height: 380px;
     color: black;
-    padding: 20px 0px;
+    padding: 0px;
     background-position-y: bottom;
     background-position-x: center;
     background-color: darkgray;
 }
 
 .intro {
-    background-color: pink;
-    padding-top:10px;
-    padding-bottom:10px;
+    background-color:#ffb6c1;
+    padding: 10px 5px;
+    color: gray;
 }
 
-h1 {
+.intro1 {
+    background-color: #ffb6c1;
+    padding: 10px 5px;
+    color: gray;
+    margin-bottom: 0px;
+}
+
+.welcome {
+    padding:10px 5px;
+}
+
+h2 {
     color: gray;
     text-align: center;
     padding-bottom:20px;
     padding-top: 20px;
 }
 
-h2, h3{
-    color: PINK;
+h3{
+    color: ;
     text-align: center;
     padding-bottom:20px;
     padding-top: 20px;
 }
 
 h5 {
-    color: pink;
+    color: #ffb6c1;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -109,13 +120,7 @@ dl, ol, ul {
 .section3 {
     background-size: cover;
     text-align: center;
-    background-image: url(Assets/pictures/bamboo-boat-clouds-cloudscape-2132098.jpg);
-    background-repeat: no-repeat;
-    min-height: 380px;
     color: black;
-    padding: 20px 0px;
-    background-position-y: bottom;
-    background-position-x: center;
 }
 
 
@@ -141,7 +146,7 @@ dl, ol, ul {
 
 .btn-success1 {
     color: #fff;
-    background-color: pink;
+    background-color: #ffaeb9;
     border-color: gray;
     border-width: thick;
 }
@@ -152,6 +157,25 @@ dl, ol, ul {
  padding-left:15px;
  padding-right:15px;
  background-color: yellow;
+ display: unset;
+}
+
+div.container4 {
+    height: 1em;
+    position: relative;
+    
+}
+div.container4 p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display:unset;
+    padding: 5px 10px;
+    
 }
 
 * {
@@ -172,6 +196,7 @@ div.center {
   content: "";
   clear: both;
   display: table;
+  padding: 20px;
 }
 
 .internary16 {
@@ -205,7 +230,6 @@ article {
 }
 
 img.iten_right {
-    border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 300px;
@@ -213,7 +237,6 @@ img.iten_right {
 }
 
 img.iten_left {
-    border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
     width: 300px;
@@ -245,6 +268,13 @@ banner2 {
     display: inline-block;
 }
 
+.gallery1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top:0px;
+    margin: 0px;
+}
+
 .section2 {
     background-size: cover;
     text-align: center;
@@ -252,7 +282,31 @@ banner2 {
     background-repeat: no-repeat;
     min-height: 380px;
     color: black;
-    padding: 20px 10px;
+    padding: 0px;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+.section4 {
+    background-size: cover;
+    text-align: center;
+    background-image: url(Assets/pictures/vietnam-2139871_1920_a.jpg);
+    background-repeat: no-repeat;
+    min-height: 380px;
+    color: black;
+    padding: 0px;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+.section5 {
+    background-size: cover;
+    text-align: center;
+    background-image: url(Assets/pictures/IMG-20190712-WA0006_a.jpg);
+    background-repeat: no-repeat;
+    min-height: 380px;
+    color: black;
+    padding: 0px;
     background-position-y: bottom;
     background-position-x: center;
 }
@@ -270,7 +324,7 @@ banner2 {
 .desth {
     margin-left: 10px;
     margin-right: 10px;
-    text-align:center;
+    text-align:justify;
 }
 
 .ready {
@@ -332,16 +386,15 @@ banner2 {
     object-fit: cover;
 }
 
+
 .header5 {
-    color: pink;
+    color: #ffb6c1;
     text-decoration: underline;
 }
 
-
- 
 footer.site {
     background-color: #212529;
-    color: pink;
+    color: #ffb6c1;
     background-size: cover;
     margin-bottom: 0;
     padding-bottom: 10px;
@@ -367,12 +420,31 @@ footer.site {
     h1{
     font-size:small;
     }
+    h2 {
+        font-size:smaller;
+    }
+    em {
+    font-size: x-small;
+    }
+
     img.map_right {
     border: 1px solid #ddd;
     border-radius: 4px;
     width: 130px;
     margin-left: 10px;
     }
+    
+    img.iten_left{
+    width: 90px;
+    border-radius: 15px;
+    }
+    
+    img.iten_right{
+    width: 90px;
+    border-radius: 15px;
+
+    }
+        
     .section2 {
     background-size: cover;
     text-align: center;
@@ -380,10 +452,44 @@ footer.site {
     background-repeat: no-repeat;
     min-height: 180px;
     color: black;
-    padding: 20px 10px;
+    padding: 0px;
     background-position-y: bottom;
     background-position-x: center;
     }
+    .section1 {
+    background-size: cover;
+    text-align: center;
+    background-image: url(Assets/pictures/bamboo-boat-clouds-cloudscape-2132098.jpg);
+    background-repeat: no-repeat;
+    min-height: 180px;
+    color: black;
+    padding: 0px;
+    background-position-y: bottom;
+    background-position-x: center;
+    background-color: darkgray;
+}
+.section5 {
+    background-size: cover;
+    text-align: center;
+    background-image: url(Assets/pictures/IMG-20190712-WA0006_a.jpg);
+    background-repeat: no-repeat;
+    min-height: 180px;
+    color: black;
+    padding: 0px;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+.section4 {
+    background-size: cover;
+    text-align: center;
+    background-image: url(Assets/pictures/vietnam-2139871_1920_a.jpg);
+    background-repeat: no-repeat;
+    min-height: 180px;
+    color: black;
+    padding: 0px;
+    background-position-y: bottom;
+    background-position-x: center;
+}
 }
     
 @media (min-width: 768px) and (max-width: 991px) {
