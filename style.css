@@ -393,6 +393,14 @@ banner2 {
     color: #ffaeb9;
 }
 
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+.bicubic {
+            -ms-interpolation-mode: bicubic;
+            image-rendering: optimizeQuality;
+}            
 .gallery2 {
     display: grid;
     grid-template-columns: repeat(2, 3fr);
