@@ -46,7 +46,7 @@ a {
     text-align: center;
     background-image: url(Assets/pictures/bamboo-boat-clouds-cloudscape-2132098.jpg);
     background-repeat: no-repeat;
-    min-height: 380px;
+    min-height: 420px;
     color: black;
     padding: 0px;
     background-position-y: bottom;
@@ -68,7 +68,7 @@ a {
 }
 
 .welcome {
-    padding:10px 5px;
+    padding:20px 20px;
 }
 
 h2 {
@@ -95,8 +95,7 @@ h5 {
 
 
 li {
-    list-style: none;
-    text-align: center
+    list-style: none;tours
 }
 
 img.quote {
@@ -117,6 +116,9 @@ dl, ol, ul {
     margin-bottom:30px;
 }
 
+.tours1 {
+    margin: 20px; 10px
+}
 .section3 {
     background-size: cover;
     text-align: center;
@@ -126,24 +128,32 @@ dl, ol, ul {
 
 .about_us {
     text-align: justify;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .contacts {
     margin-left: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .compact {
     margin: 0;
 }
 
+.btn-group-lg>.btn, .btn-lg {
+    padding: .2rem .5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}    
 .man {
     background-image: url(Assets/pictures/hanoi-man-market-1004123.jpg);
 
 }
-
+.right_align{
+    text-align:right;
+}
 .btn-success1 {
     color: #fff;
     background-color: #ffaeb9;
@@ -151,6 +161,12 @@ dl, ol, ul {
     border-width: thick;
 }
 
+.btn-success2 {
+    color: black;
+    background-color: yellow;
+    border-color: yellow;
+    border-width: thick;
+}
 
 .towel {
  text-align:center;  
@@ -202,6 +218,7 @@ div.center {
 .internary16 {
     text-align: left;
     margin: 10px 20px;
+    padding: 10px;
     align-content: center;
     text-align: justify;
 }
@@ -230,14 +247,14 @@ article {
 }
 
 img.iten_right {
-    border-radius: 4px;
+    border-radius: 20px;
     padding: 5px;
     width: 300px;
     margin-left: 10px;
 }
 
 img.iten_left {
-    border-radius: 4px;
+    border-radius: 20px;
     padding: 5px;
     width: 300px;
     margin-right: 10px;
@@ -312,8 +329,8 @@ banner2 {
 }
 
 .dest {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
     text-align: justify;
 }
@@ -322,8 +339,8 @@ banner2 {
     margin-top:20px;
 }
 .desth {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align:justify;
 }
 
@@ -369,6 +386,49 @@ banner2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 5px;
+}
+
+.pink {
+    color: #ffaeb9;
+}
+
+.gallery2 {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-gap: 2px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.gallery__items--3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.gallery3 {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-gap: 2px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.gallery__itemy--3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+figure {
+    margin: 3px;
 }
 
 .people {
@@ -404,47 +464,59 @@ footer.site {
 .bottom {
     margin-bottom: 0;
 }
+
 /* media queries */
 
 @media (max-width:767px) {
-    body {
-    font-size:small;
+    body{
+    font-size: smaller;
+    }
+    p {
+    font-size: smaller;
+    }
+    .welcome {
+    padding:5px 5px;
     }
     .review{
-    text-align:center;
-    padding:20px 10px;
-    margin-bottom:40px;
-    display:inline;
+    padding:5px 5px;
+    margin-bottom:5px;
     font-size:smaller;
     }
-    h1{
-    font-size:small;
+    h1, h2, h3, h4, h5, h6{
+    font-size:smaller;
     }
-    h2 {
-        font-size:smaller;
-    }
+
     em {
     font-size: x-small;
     }
 
     img.map_right {
-    border: 1px solid #ddd;
-    border-radius: 4px;
     width: 130px;
-    margin-left: 10px;
+    margin-left: 5px;
     }
     
     img.iten_left{
-    width: 90px;
-    border-radius: 15px;
+    width: 130px;
+    border-radius: 20px;
     }
     
     img.iten_right{
-    width: 90px;
-    border-radius: 15px;
-
+    width: 130px;
+    border-radius: 20px;
     }
+    .info_left {
+    width: 120px;
+    }
+    .info_right {
+    width: 120px;
+    }
+
         
+    .dest {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    }    
     .section2 {
     background-size: cover;
     text-align: center;
@@ -467,8 +539,8 @@ footer.site {
     background-position-y: bottom;
     background-position-x: center;
     background-color: darkgray;
-}
-.section5 {
+    }
+    .section5 {
     background-size: cover;
     text-align: center;
     background-image: url(Assets/pictures/IMG-20190712-WA0006_a.jpg);
@@ -478,8 +550,8 @@ footer.site {
     padding: 0px;
     background-position-y: bottom;
     background-position-x: center;
-}
-.section4 {
+    }
+    .section4 {
     background-size: cover;
     text-align: center;
     background-image: url(Assets/pictures/vietnam-2139871_1920_a.jpg);
@@ -489,7 +561,7 @@ footer.site {
     padding: 0px;
     background-position-y: bottom;
     background-position-x: center;
-}
+    }
 }
     
 @media (min-width: 768px) and (max-width: 991px) {
