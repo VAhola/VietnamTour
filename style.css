@@ -1,5 +1,13 @@
 html {
     border: none;
+    height: 100%;
+    margin: 0;
+}
+
+body: {
+    height: 100%;
+    margin: 0;
+    
 }
 
 /*------------- Styling the header -----------*/
@@ -16,6 +24,9 @@ html {
 
 }
 
+html, body {
+    height:100%;
+}
 
 .button {
     color: white;
@@ -128,8 +139,7 @@ dl, ol, ul {
 
 .about_us {
     text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0px 40px 40px 40px;
 }
 
 .contacts {
@@ -179,8 +189,8 @@ dl, ol, ul {
 div.container4 {
     height: 1em;
     position: relative;
-    
 }
+
 div.container4 p {
     margin: 0;
     background: yellow;
@@ -260,6 +270,18 @@ img.iten_left {
     margin-right: 10px;
 }
 
+.section2 {
+    background-size: cover;
+    text-align: center;
+    background-image: url(Assets/pictures/chaly-pavement-road-2044867.jpg);
+    background-repeat: no-repeat;
+    min-height: 180px;
+    color: black;
+    padding: 0px;
+    background-position-y: bottom;
+    background-position-x: center;
+    }
+
 img.map_right {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -287,21 +309,10 @@ banner2 {
 
 .gallery1 {
     display: grid;
+    display: -ms-flexbox;
     grid-template-columns: repeat(3, 1fr);
     padding-top:0px;
-    margin: 0px;
-}
-
-.section2 {
-    background-size: cover;
-    text-align: center;
-    background-image: url(Assets/pictures/chaly-pavement-road-2044867.jpg);
-    background-repeat: no-repeat;
-    min-height: 380px;
-    color: black;
-    padding: 0px;
-    background-position-y: bottom;
-    background-position-x: center;
+    margin: 0px 0px 30px 0px;
 }
 
 .section4 {
@@ -376,6 +387,7 @@ banner2 {
 
 .gallery {
     display: grid;
+    display: -ms-flexbox;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     padding-top:5px;
@@ -460,6 +472,15 @@ figure {
     text-decoration: underline;
 }
 
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.push {
+    height: 50px;
+}
+
 footer.site {
     background-color: #212529;
     color: #ffb6c1;
@@ -467,6 +488,9 @@ footer.site {
     margin-bottom: 0;
     padding-bottom: 10px;
     padding-top: 10px;
+    flex-shrink: 0;
+    display: -webkit-box;
+    height:140px;
 }
 
 .bottom {
@@ -493,21 +517,17 @@ footer.site {
     h1, h2, h3, h4, h5, h6{
     font-size:smaller;
     }
-
     em {
     font-size: x-small;
     }
-
     img.map_right {
     width: 130px;
     margin-left: 5px;
     }
-    
     img.iten_left{
     width: 130px;
     border-radius: 20px;
     }
-    
     img.iten_right{
     width: 130px;
     border-radius: 20px;
@@ -518,23 +538,10 @@ footer.site {
     .info_right {
     width: 120px;
     }
-
-        
     .dest {
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px;
-    }    
-    .section2 {
-    background-size: cover;
-    text-align: center;
-    background-image: url(Assets/pictures/chaly-pavement-road-2044867.jpg);
-    background-repeat: no-repeat;
-    min-height: 180px;
-    color: black;
-    padding: 0px;
-    background-position-y: bottom;
-    background-position-x: center;
     }
     .section1 {
     background-size: cover;
@@ -573,16 +580,18 @@ footer.site {
 }
     
 @media (min-width: 768px) and (max-width: 991px) {
-}
     .review {
     text-align:center;
     padding:20px 10px;
     margin-bottom:40px;
     display:flex;
     }
+    .section2 {
+    min-height: 340px;
+    }
 }
 
-@media (min-width: 992px) and (max-width: 1800px) {
+@media (min-width: 992px) and (max-width: 2800px) {
     .review{
     text-align:center;
     padding:20px 10px;
@@ -591,4 +600,11 @@ footer.site {
     margin-right: 20px;
     display:inline-flex;
     }
+    .section2 {
+    min-height: 480px;
+    }    
+}
+
+div.footer-details.row{
+    width:100%;
 }
