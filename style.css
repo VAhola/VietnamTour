@@ -12,21 +12,6 @@ body: {
 
 /*------------- Styling the header -----------*/
 
-.header {
-    background-color: #4F4F4F;
-    background-position: center;
-    text-align: center;
-    background-size: cover;
-    color: #fafafa;
-    margin:0;
-    padding-bottom: 10px;
-    padding-top: 10px;
-
-}
-
-html, body {
-    height:100%;
-}
 
 .button {
     color: white;
@@ -67,12 +52,6 @@ a {
 
 .intro {
     background-color:#ffb6c1;
-    padding: 10px 5px;
-    color: gray;
-}
-
-.intro1 {
-    background-color: #ffb6c1;
     padding: 10px 5px;
     color: gray;
     margin-bottom: 0px;
@@ -415,6 +394,7 @@ img {
 }            
 .gallery2 {
     display: grid;
+    display: -ms-flexbox;
     grid-template-columns: repeat(2, 3fr);
     grid-gap: 2px;
     padding-top:20px;
@@ -432,6 +412,7 @@ img {
 
 .gallery3 {
     display: grid;
+    display: -ms-flexbox;    
     grid-template-columns: repeat(2, 3fr);
     grid-gap: 2px;
     padding-top:20px;
