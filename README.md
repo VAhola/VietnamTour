@@ -16,41 +16,39 @@ The website is aimed at people who have already decided on Vietnam as their trav
 ## Features
 
 ### Existing Features
-- Feature 1 - allows users to achieve book an 8 day tour, by having them fill out the submit form in page Our Tours -> 8 Day Vietnam at a glance with their email address
-- Feature 2 - allows users to achieve book a 16 day tour, by having them fill out the submit form in page Our Tours -> 16 Day Complete Vietnam at a glance with their email address
-- -Feature 3 - allows users to subscribe to a newsletter, by having them click on Sign Up! button and  fill out the submit form in home page.
-
+- Feature 1 - allows users to book an 8 day tour, by having them fill out the submit form in section Our Tours page 8 Day Vietnam at a glance with their email address
+- Feature 2 - allows users to book a 16 day tour, by having them fill out the submit form in section Our Tours page 16 Day Complete Vietnam at a glance with their email address
+- Feature 3 - allows users to subscribe to a newsletter, by having them click on Sign Up! button and  fill out the submit form in home page.
 
 ### Features Left to Implement
 - Calendar based booking system allowing user to finalize the initial reservation via the site
 - Enable payment during the booking process
 - A user login, including possibilities to:
-        - View booked trips
-        - Manage bookings
-        - Share booking details with other registered users
+    - View booked trips
+    - Manage bookings
+    - Share booking details with other registered users
 
 ## Technologies Used
 -	Bootstrapcdn
-  -	Bootstrap for modifiable design elements
-  - Font-awesome for adding icons
-  - HTML for structure
-  - CSS for design
-  - Google for information
+    -	Bootstrap for modifiable design elements
+    - Font-awesome for adding icons
+    - HTML for structure
+    - CSS for design
+    - Google for information
 
 ## Testing
 
+
 1. Sign Up form
-  i.	Go to the "Home" page
-  ii.	Try to submit the form with an invalid email address and verify that a relevant error message appears
+    1. Go to the "Home" page
+    1. Try to submit the form with an invalid email address and verify that a relevant error message appears
+1. Book Now form - 8 Days
+    1. Go to the "8 Days Vietnam at glances" page under Our Tours
+    1. Try to submit the form with an invalid email address and verify that a relevant error message appears
+1. Book Now form - 16 Days
+   1. Go to the "16 Day Complete Vietnam" page under Our Tours
+   1. Try to submit the form with an invalid email address and verify that a relevant error message appears
 
-2.	Book Now form - 8 Days
-  i.	Go to the "8 Days Vietnam at glances" page under Our Tours
-  ii.	Try to submit the form with an invalid email address and verify that a relevant error message appears
-
-
-3.	Book Now form - 16 Days
-  i.	Go to the "16 Day Complete Vietnam" page under Our Tours
-  ii.	Try to submit the form with an invalid email address and verify that a relevant error message appears
 
 ## Deployment
 
