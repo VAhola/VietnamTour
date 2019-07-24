@@ -32,6 +32,10 @@ h3 {
 	padding-top: 20px;
 }
 
+h4 {
+	color:gray;
+	font-size:inherit;
+}
 h5 {
 	color: #ffb6c1;
 	text-align: center;
@@ -288,8 +292,7 @@ div.center {
 /* Styling 8d.html */
 
 .tours1 {
-	margin: 20px;
-	10px
+	margin: 40px 20px
 }
 
 .section5 {
@@ -457,15 +460,15 @@ div.footer-details.row {
 	.btn-lg {
 		font-size: 0.7rem;
 	}
+	.gallery__items--3{
+		display:none;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.section2 {
 		background-image: url(../pictures/chaly-pavement-road-2044867.jpg);
 		min-height: 340px;
-	}
-	H6 {
-		font-size:1.2rem;
 	}
 }
 
