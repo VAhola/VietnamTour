@@ -17,10 +17,10 @@ The more neutral basic color scheme was chosen to calm the overall look of the s
 
 ### User Stories:
 
-1. As a user, I want to see what travel options a company offers so that I can decide whether to book a trip or not. 
-1. As a user, I want to be able to book my trip via the website
-1. As a user, I want to be able to find the contact details so that I can easily contact the company.
-1. As a user, I want to be able to locate the social media presence easily. 
+- As a user, I want to see what travel options a company offers so that I can decide whether to book a trip or not. 
+- As a user, I want to be able to book my trip via the website
+- As a user, I want to be able to find the contact details so that I can easily contact the company.
+- As a user, I want to be able to locate the social media presence easily. 
 
 ### Design documents 
 
