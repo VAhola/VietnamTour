@@ -463,6 +463,9 @@ div.footer-details.row {
 	.gallery__items--3{
 		display:none;
 	}
+	.gallery__itemy--3{
+		display:none;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
