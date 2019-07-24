@@ -24,7 +24,7 @@ The more neutral basic color scheme was chosen to calm the overall look of the s
 
 ### Design documents 
 
-Design documents are located [here] (/Documents/Wireframes)
+Design documents are located [here](https://github.com/VAhola/VietnamTour/tree/master/Documents/Layout)
 
 ## Features
 
