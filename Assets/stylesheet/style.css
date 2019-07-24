@@ -253,12 +253,12 @@ div.box {
 	margin-bottom: 20px;
 }
 
-.clearfix::after {
+div.clearfix::after {
 	content: "";
 	clear: both;
 	display: table;
 	padding: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 
@@ -437,16 +437,7 @@ div.footer-details.row {
 		padding: 5px;
 	}
 	.section1 {
-		background-size: cover;
-		text-align: center;
-		background-image: url(../pictures/bamboo-boat-clouds-cloudscape-2132098.jpg);
-		background-repeat: no-repeat;
 		min-height: 180px;
-		color: black;
-		padding: 0px;
-		background-position-y: bottom;
-		background-position-x: center;
-		background-color: darkgray;
 	}
 	.section5 {
 		background-size: cover;
