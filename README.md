@@ -20,7 +20,7 @@ The more neutral basic color scheme was chosen to calm the overall look of the s
 1. As a user, I want to see what travel options a company offers so that I can decide whether to book a trip or not. 
 1. As a user, I want to be able to book my trip via the website
 1. As a user, I want to be able to find the contact details so that I can easily contact the company.
-1. As a user, I want to be able to locate the social media presence easily 
+1. As a user, I want to be able to locate the social media presence easily. 
 
 ### Design documents 
 
@@ -43,11 +43,11 @@ As the navigation bar is not sticky but disappars when scrolling down the page a
 There are also three bottons on the site:
 
 - Book an 8 day tour
-        - Visitor can book an 8 day tour, by filling out the submit form in section "Our Tours" page "8 Day Vietnam at a glance" with their email address
+    - Visitor can book an 8 day tour, by filling out the submit form in section "Our Tours" page "8 Day Vietnam at a glance" with their email address
 - Book a 16 day tour 
-        - Visitor can book a 16 day tour, by filling out the submit form in section "Our Tours" page "16 Day Complete Vietnam at a glance" with their email address
+    - Visitor can book a 16 day tour, by filling out the submit form in section "Our Tours" page "16 Day Complete Vietnam at a glance" with their email address
 - Subscribe to a newsletter
-        - Visitors can subscribe to a newsletter, by clicking on Sign Up! button and filling out the submit form in home page.
+    - Visitors can subscribe to a newsletter, by clicking on Sign Up! button and filling out the submit form in home page.
 
 ### Features Left to Implement
 
@@ -87,7 +87,7 @@ The follow tests were made to ensure the sign up and book buttons and forms are 
 
 In addition, the link to top at the footer of each site as well as the navigation links at the top were all tested to make sure they work as expected.
 
-The site was reviewed on laptop, mobile phone and a large monitor using 1E11, Chrome, Edge and FireFox
+The site was reviewed on laptop, mobile phone and a large monitor using 1E11, Chrome, Edge and FireFox.
 
 ## Deployment
 
