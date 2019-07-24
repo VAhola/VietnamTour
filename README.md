@@ -5,8 +5,8 @@ The main purpose is to give possible clients information on the tours on offer a
 
 ## Demo
 
-[Live Demo](https://vahola.github.io/VietnamTour/16d.html)
-![Desktop Demo] (https://github.com/VAhola/VietnamTour/blob/master/Documents/Layout/Devices.PNG)
+Here is the [Live Demo](https://vahola.github.io/VietnamTour/16d.html)
+![static Demo](https://github.com/VAhola/VietnamTour/blob/master/Documents/Layout/Devices.jpg")
 
 ## UX
 The website is aimed at people who have already decided on Vietnam as their travel destination but are looking for organized tours to see multiple locations within the country.
@@ -24,7 +24,7 @@ The more neutral basic color scheme was chosen to calm the overall look of the s
 
 ### Design documents 
 
-Design documents are located [here} (/Documents/Wireframes)
+Design documents are located [here] (/Documents/Wireframes)
 
 ## Features
 
