@@ -104,7 +104,10 @@ ul {
 	border-width: thin;
 }
 
-
+input:required,
+textarea:required {
+  border-color: red !important;
+}
 /*Styling Image galleries */
 
 img {
