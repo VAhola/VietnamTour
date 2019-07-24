@@ -272,9 +272,14 @@ div.clearfix::after {
 .contacts {
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-bottom: 20px;
 }
 
+.contact_us {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	    padding: 20px 10px 30px 10px;
+}
 div.center {
 	text-align: center;
 }
@@ -440,26 +445,10 @@ div.footer-details.row {
 		min-height: 180px;
 	}
 	.section5 {
-		background-size: cover;
-		text-align: center;
-		background-image: url(../pictures/IMG-20190712-WA0006_a.jpg);
-		background-repeat: no-repeat;
 		min-height: 180px;
-		color: black;
-		padding: 0px;
-		background-position-y: bottom;
-		background-position-x: center;
 	}
 	.section4 {
-		background-size: cover;
-		text-align: center;
-		background-image: url(../pictures/vietnam-2139871_1920_a.jpg);
-		background-repeat: no-repeat;
 		min-height: 180px;
-		color: black;
-		padding: 0px;
-		background-position-y: bottom;
-		background-position-x: center;
 	}
 	.intro {
 		margin-bottom: 15px;
@@ -474,6 +463,9 @@ div.footer-details.row {
 	.section2 {
 		background-image: url(../pictures/chaly-pavement-road-2044867.jpg);
 		min-height: 340px;
+	}
+	H6 {
+		font-size:1.2rem;
 	}
 }
 
