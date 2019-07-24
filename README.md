@@ -6,7 +6,7 @@ The main purpose is to give possible clients information on the tours on offer a
 ## Demo
 
 [Live Demo](https://vahola.github.io/VietnamTour/16d.html)
-1 [Responsive] (/Documents/Layout/Devices.PNG)
+![Desktop Demo] (https://github.com/VAhola/VietnamTour/blob/master/Documents/Layout/Devices.PNG)
 
 ## UX
 The website is aimed at people who have already decided on Vietnam as their travel destination but are looking for organized tours to see multiple locations within the country.
