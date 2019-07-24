@@ -5,6 +5,8 @@ The main purpose is to give possible clients information on the tours on offer a
 
 ## Demo
 
+[Live Demo](https://vahola.github.io/VietnamTour/16d.html)
+1 [Responsive] (/Documents/Layout/Devices.PNG)
 
 ## UX
 The website is aimed at people who have already decided on Vietnam as their travel destination but are looking for organized tours to see multiple locations within the country.
@@ -13,17 +15,16 @@ Color scheme chosen is a combination of gray, white and pink with yellow used as
 The more neutral basic color scheme was chosen to calm the overall look of the site as most pictures used are very colorful.
 
 
-
-
 ### User Stories:
 
 1. As a user, I want to see what travel options a company offers so that I can decide whether to book a trip or not. 
-2. As a user, I want to be able to find the contact details so that I can easily contact the company.
-
+1. As a user, I want to be able to book my trip via the website
+1. As a user, I want to be able to find the contact details so that I can easily contact the company.
+1. As a user, I want to be able to locate the social media presence easily 
 
 ### Design documents 
 
-Design documents are located here /Documents
+Design documents are located [here} (/Documents/Wireframes)
 
 ## Features
 
@@ -68,16 +69,25 @@ Should this be used for an actual travel agency the following features would nee
 
 ## Testing
 
+The follow tests were made to ensure the sign up and book buttons and forms are working properly:
 1. Sign Up form
     1. Go to the "Home" page
-    1. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    1. Try to submit the form without an email address and verify that a relevant error message appears
+    1. Try to submit the form without a name and verify that a relevant error message appears
 1. Book Now form - 8 Days
     1. Go to the "8 Days Vietnam at glances" page under Our Tours
     1. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    1. Try to submit the form without a name and verify that a relevant error message appears
+    1. Try to submit the form without a desidered start date and verify that a relevant error message appears
 1. Book Now form - 16 Days
    1. Go to the "16 Day Complete Vietnam" page under Our Tours
    1. Try to submit the form with an invalid email address and verify that a relevant error message appears
+   1. Try to submit the form without a name and verify that a relevant error message appears
+   1. Try to submit the form without a desidered start date and verify that a relevant error message appears
 
+In addition, the link to top at the footer of each site as well as the navigation links at the top were all tested to make sure they work as expected.
+
+The site was reviewed on laptop, mobile phone and a large monitor using 1E11, Chrome, Edge and FireFox
 
 ## Deployment
 
