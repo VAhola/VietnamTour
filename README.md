@@ -1,7 +1,9 @@
 # Veera's Vietnam Tours
 
-This is a website made for the 1st Milestone Project of the Code Institute Full Stack Web Developer Course.  It represents a website for a fictional travel agency providing tours in Vietnam. 
+This is a website made for the **1st Milestone Project** of the Code Institute Full Stack Web Developer Course.  It represents a website for a **fictional travel agency** providing tours in Vietnam. 
 The main purpose is to give possible clients information on the tours on offer and a means to contact the company.
+
+_All company details in this site are purely fictional_
 
 ## Demo
 
@@ -27,7 +29,6 @@ The more neutral basic color scheme was chosen to calm the overall look of the s
 Design documents are located [here](https://github.com/VAhola/VietnamTour/tree/master/Documents/Wireframes)
 
 ## Features
-
 
 
 ### Existing Features
@@ -98,9 +99,9 @@ Any new commits to the master branch will automatically reflect on the deployed 
 
 The textual content on this site is written by me.
 
-The image collages where made based on code in this https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/
+The image collages where made based on code in [this](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
 
-The sticky footer was made based on the instructions here https://css-tricks.com/couple-takes-sticky-footer/
+The sticky footer was made based on the instructions [here](https://css-tricks.com/couple-takes-sticky-footer/)
 
 
 ### Media
