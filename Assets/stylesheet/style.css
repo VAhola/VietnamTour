@@ -4,7 +4,7 @@ html {
 	margin: 0;
 }
 
-body: {
+body {
 	height: 100%;
 	margin: 0;
 }
@@ -20,33 +20,34 @@ article {
 
 h2 {
 	color: gray;
-	text-align: center;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	text-align: center;
 }
 
 h3 {
-	color: ;
-	text-align: center;
+	color: #ffb6c1;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	text-align: center;
 }
 
 h4 {
-	color:gray;
-	font-size:inherit;
+	color: gray;
+	font-size: inherit;
 }
+
 h5 {
 	color: #ffb6c1;
-	text-align: center;
-	margin-top: 20px;
 	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: center;
 	text-decoration: underline;
 }
 
 H6 {
-	font-weight: 900;
 	color: #ffb6c1;
+	font-weight: 900;
 }
 
 li {
@@ -56,8 +57,8 @@ li {
 dl,
 ol,
 ul {
-	margin-top: 0;
 	margin-bottom: 1rem;
+	margin-top: 0;
 	padding: 0;
 }
 
@@ -85,29 +86,31 @@ ul {
 
 .btn-group-lg>.btn,
 .btn-lg {
-	padding: .2rem .5rem;
 	font-size: 1rem;
 	line-height: 1.5;
+	padding: .2rem .5rem;
 }
 
 .btn-success1 {
-	color: #fff;
 	background-color: #ffaeb9;
 	border-color: gray;
 	border-width: thin;
+	color: #fff;
 }
 
 .btn-success2 {
-	color: black;
 	background-color: yellow;
 	border-color: yellow;
 	border-width: thin;
+	color: black;
 }
 
 input:required,
 textarea:required {
-  border-color: red !important;
+	border-color: red !important;
 }
+
+
 /*Styling Image galleries */
 
 img {
@@ -115,43 +118,43 @@ img {
 }
 
 .bicubic {
-	-ms-interpolation-mode: bicubic;
 	image-rendering: optimizeQuality;
+	-ms-interpolation-mode: bicubic;
 }
 
 .gallery__img {
-	width: 100%;
+	border-radius: 5px;
 	height: 100%;
 	object-fit: cover;
-	border-radius: 5px;
+	width: 100%;
 }
 
 .gallery {
 	display: grid;
 	display: -ms-flexbox;
-	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 10px;
-	padding-top: 5px;
+	grid-template-columns: repeat(4, 1fr);
 	margin: 30px 5px;
+	padding-top: 5px;
 }
 
 .gallery1 {
 	display: grid;
 	display: -ms-flexbox;
 	grid-template-columns: repeat(3, 1fr);
-	padding-top: 0px;
 	margin: 0px 0px 30px 0px;
+	padding-top: 0px;
 }
 
 .gallery2 {
 	display: grid;
 	display: -ms-grid;
-	grid-template-columns: repeat(2, 3fr);
 	grid-gap: 2px;
-	padding-top: 20px;
+	grid-template-columns: repeat(2, 3fr);
+	margin: 0px;
 	padding-bottom: 20px;
 	padding-right: 10px;
-	margin: 0px;
+	padding-top: 20px;
 }
 
 .gallery__items--3 {
@@ -173,9 +176,9 @@ img {
 	display: -ms-grid;
 	grid-template-columns: repeat(2, 3fr);
 	grid-gap: 2px;
-	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-right: 10px;
+	padding-top: 20px;
 	margin: 0px;
 }
 
@@ -187,23 +190,23 @@ figure {
 /* Styling Index.html */
 
 .section1 {
-	background-size: cover;
-	text-align: center;
-	background-image: url(../pictures/bamboo-boat-clouds-cloudscape-2132098.jpg);
-	background-repeat: no-repeat;
-	min-height: 420px;
-	color: black;
-	padding: 0px;
-	background-position-y: bottom;
-	background-position-x: center;
 	background-color: darkgray;
+	background-image: url(../pictures/bamboo-boat-clouds-cloudscape-2132098.jpg);
+	background-position-x: center;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	min-height: 420px;
+	padding: 0px;
+	text-align: center;
 }
 
 .intro {
 	background-color: #ffb6c1;
-	padding: 10px 5px;
 	color: gray;
 	margin-bottom: 0px;
+	padding: 10px 5px;
 }
 
 div.container4 {
@@ -212,15 +215,15 @@ div.container4 {
 }
 
 div.container4 p {
-	margin: 0;
 	background: yellow;
+	display: unset;
+	left: 50%;
+	margin: 0;
+	margin-right: -50%;
+	padding: 5px 10px;
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	margin-right: -50%;
 	transform: translate(-50%, -50%);
-	display: unset;
-	padding: 5px 10px;
 }
 
 .welcome {
@@ -235,8 +238,8 @@ div.container4 p {
 
 .tours {
 	color: darkgray;
-	text-align: center;
 	margin-bottom: 30px;
+	text-align: center;
 }
 
 .compact {
@@ -244,8 +247,8 @@ div.container4 p {
 }
 
 img.quote {
-	border-style: solid;
 	border-color: gray;
+	border-style: solid;
 	float: right;
 }
 
@@ -255,25 +258,25 @@ img.quote {
 
 div.box {
 	float: left;
-	width: 50%;
-	padding: 20px;
 	margin-bottom: 20px;
+	padding: 20px;
+	width: 50%;
 }
 
 div.clearfix::after {
-	content: "";
 	clear: both;
+	content: "";
 	display: table;
-	padding: 20px;
 	margin-bottom: 30px;
+	padding: 20px;
 }
 
 
 /* Styling About.html */
 
 .about_us {
-	text-align: justify;
 	margin: 0px 40px 40px 40px;
+	text-align: justify;
 }
 
 .contacts {
@@ -285,8 +288,9 @@ div.clearfix::after {
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-bottom: 40px;
-	    padding: 20px 10px 30px 10px;
+	padding: 20px 10px 30px 10px;
 }
+
 div.center {
 	text-align: center;
 }
@@ -299,30 +303,30 @@ div.center {
 }
 
 .section5 {
-	background-size: cover;
-	text-align: center;
 	background-image: url(../pictures/IMG-20190712-WA0006_a.jpg);
-	background-repeat: no-repeat;
-	min-height: 380px;
-	color: black;
-	padding: 0px;
-	background-position-y: bottom;
 	background-position-x: center;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	min-height: 380px;
+	padding: 0px;
+	text-align: center;
 }
 
 
 /* Styling 16d.html */
 
 .section4 {
-	background-size: cover;
-	text-align: center;
 	background-image: url(../pictures/vietnam-2139871_1920_a.jpg);
-	background-repeat: no-repeat;
-	min-height: 380px;
-	color: black;
-	padding: 0px;
-	background-position-y: bottom;
 	background-position-x: center;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	min-height: 380px;
+	padding: 0px;
+	text-align: center;
 }
 
 
@@ -331,42 +335,42 @@ div.center {
 .info_left {
 	border: 3px solid #ddd;
 	border-radius: 4px;
-	width: 220px;
 	margin-right: 10px;
+	width: 220px;
 }
 
 .info_right {
 	border: 2px solid #ddd;
 	border-radius: 4px;
-	width: 220px;
 	margin-left: 10px;
+	width: 220px;
 }
 
 .section2 {
-	background-size: cover;
-	text-align: center;
 	background-image: url(../pictures/chaly-pavement-road-2044867.jpg);
-	background-repeat: no-repeat;
-	min-height: 180px;
-	color: black;
-	padding: 0px;
-	background-position-y: bottom;
 	background-position-x: center;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	min-height: 180px;
+	padding: 0px;
+	text-align: center;
 }
 
 img.map_right {
 	border: 1px solid #ddd;
 	border-radius: 4px;
-	width: 220px;
 	margin: 20px 10px;
+	width: 220px;
 }
 
 .dest {
+	margin-bottom: 10px;
 	margin-left: 20px;
 	margin-right: 20px;
 	padding: 10px;
 	text-align: justify;
-	margin-bottom: 10px;
 }
 
 
@@ -380,8 +384,8 @@ img.map_right {
 /* Styling Footer  */
 
 .wrapper {
-	min-height: 100%;
 	margin-bottom: -50px;
+	min-height: 100%;
 }
 
 .push {
@@ -390,14 +394,14 @@ img.map_right {
 
 footer.site {
 	background-color: #212529;
-	color: #ffb6c1;
 	background-size: cover;
+	color: #ffb6c1;
+	display: -webkit-box;
+	flex-shrink: 0;
+	height: 140px;
 	margin-bottom: 0;
 	padding-bottom: 10px;
 	padding-top: 10px;
-	flex-shrink: 0;
-	display: -webkit-box;
-	height: 140px;
 }
 
 .bottom {
@@ -433,8 +437,8 @@ div.footer-details.row {
 		font-size: small;
 	}
 	img.map_right {
-		width: 130px;
 		margin-left: 5px;
+		width: 130px;
 	}
 	.info_left {
 		width: 120px;
@@ -463,24 +467,22 @@ div.footer-details.row {
 	.btn-lg {
 		font-size: 0.7rem;
 	}
-	.gallery__items--3{
-		display:none;
+	.gallery__items--3 {
+		display: none;
 	}
-	.gallery__itemy--3{
-		display:none;
+	.gallery__itemy--3 {
+		display: none;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.section2 {
-		background-image: url(../pictures/chaly-pavement-road-2044867.jpg);
 		min-height: 340px;
 	}
 }
 
 @media (min-width: 992px) and (max-width: 2800px) {
 	.section2 {
-		background-image: url(../pictures/chaly-pavement-road-2044867.jpg);
 		min-height: 480px;
 	}
 }
